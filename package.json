@@ -6,9 +6,6 @@
   "publishConfig": {
     "access": "public"
   },
-  "scripts": {
-    "test": "jest --config src/test/jest.config.json"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mnatanbrito/jest-meme-reporter.git"

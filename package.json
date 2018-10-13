@@ -1,0 +1,35 @@
+{
+  "name": "@mnatanbrito/jest-meme-reporter",
+  "version": "1.0.0",
+  "description": "Turn your test results into memes! 😋",
+  "main": "src/index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "jest --config src/test/jest.config.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mnatanbrito/jest-meme-reporter.git"
+  },
+  "keywords": [
+    "jest",
+    "reporter",
+    "memes"
+  ],
+  "author": "Marcos Natan <mnatan.brito@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mnatanbrito/jest-meme-reporter/issues"
+  },
+  "homepage": "https://github.com/mnatanbrito/jest-meme-reporter.git#readme",
+  "dependencies": {
+    "got": "^9.2.1",
+    "jest-validate": "^23.6.0",
+    "terminal-image": "^0.1.1"
+  },
+  "peerDependency": {
+    "jest": "^23.6.0"
+  }
+}

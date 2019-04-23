@@ -1,6 +1,6 @@
 {
   "name": "@mnatanbrito/jest-meme-reporter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Turn your test results into memes! 😋",
   "main": "src/index.js",
   "publishConfig": {
@@ -22,9 +22,9 @@
   },
   "homepage": "https://github.com/mnatanbrito/jest-meme-reporter.git#readme",
   "dependencies": {
-    "got": "^9.2.1",
+    "got": "^9.6.0",
     "jest-validate": "^23.6.0",
-    "terminal-image": "^0.1.1"
+    "terminal-image": "^0.1.2"
   },
   "peerDependency": {
     "jest": "^23.6.0"

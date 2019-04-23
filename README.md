@@ -1,29 +1,42 @@
 # jest-meme-reporter
+
 Turn your test results into memes! 😋
 
 ## Installation
+
 ```shell
 npm install -D @mnatanbrito/jest-meme-reporter
 ```
 
 ## Important Notice
+
 This reporter is intended for fun only. Given this restriction, it will only run in `development` (NODE_ENV=development) environments. I advise you not to replace 'default' reporter, just add 'jest-meme-reporter' as an additional reporter.
 
 ## Meme source
+
 We use [Giphy](https://www.giphy.com) as the meme database.
 
 ## Usage
+
 In your jest config add the following entry:
+
 ```JSON
 {
-  "reporters": [ 
+  "reporters": [
     "default",
-    ["jest-meme-reporter", options ] ]
+    [
+      "<rootDir>/node_modules/@mnatanbrito/jest-meme-reporter/src/index.js", {
+        "apiKey": "API_KEY"
+      }
+    ]
+  ]
 }
 ```
 
 ## Options
+
 ### apiKey: string
+
 Api key generated on the `Giphy` dashboard.
 
 ```json
@@ -39,7 +52,9 @@ jest
 ```
 
 ## Usage as testResultsProcessor
+
 In your jest config add the following entry:
+
 ```JSON
 {
   "testResultsProcessor": "jest-meme-reporter"
@@ -51,6 +66,10 @@ Then simply run:
 ```shell
 jest
 ```
+
+😋
+
+![Jest meme reporter output](https://github.com/mnatanbrito/jest-meme-reporter/blob/master/jest-meme-reporter-demo.gif "Jest meme reporter output")
 
 <h2 align="center">Maintainers</h2>
 <table>
@@ -66,6 +85,6 @@ jest
   <tbody>
 </table>
 
-
 ## Licence
+
 MIT

@@ -69,7 +69,7 @@ jest
 
 😋
 
-![Jest meme reporter output](https://github.com/mnatanbrito/jest-meme-reporter/blob/master/jest-meme-reporter-demo.gif "Jest meme reporter output")
+![Jest meme reporter output](https://raw.githubusercontent.com/mnatanbrito/jest-meme-reporter/master/jest_meme_reporter_demo.gif "Jest meme reporter output")
 
 <h2 align="center">Maintainers</h2>
 <table>
